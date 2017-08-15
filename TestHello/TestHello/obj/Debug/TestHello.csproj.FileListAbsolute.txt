@@ -1,0 +1,6 @@
+C:\Users\Sivaprasad. G\Documents\Visual Studio 2017\Projects\cslab\TestHello\TestHello\bin\Debug\TestHello.exe.config
+C:\Users\Sivaprasad. G\Documents\Visual Studio 2017\Projects\cslab\TestHello\TestHello\bin\Debug\TestHello.exe
+C:\Users\Sivaprasad. G\Documents\Visual Studio 2017\Projects\cslab\TestHello\TestHello\bin\Debug\TestHello.pdb
+C:\Users\Sivaprasad. G\Documents\Visual Studio 2017\Projects\cslab\TestHello\TestHello\obj\Debug\TestHello.csprojResolveAssemblyReference.cache
+C:\Users\Sivaprasad. G\Documents\Visual Studio 2017\Projects\cslab\TestHello\TestHello\obj\Debug\TestHello.exe
+C:\Users\Sivaprasad. G\Documents\Visual Studio 2017\Projects\cslab\TestHello\TestHello\obj\Debug\TestHello.pdb
