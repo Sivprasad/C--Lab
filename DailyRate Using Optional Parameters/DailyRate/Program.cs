@@ -15,31 +15,33 @@ namespace DailyRate
 
         void run()
         {
-            double dailyRate = readDouble("Enter your daily rate: ");
-            int noOfDays = radInt("Enter the number of days : ");
+            double dailyRate = readDouble("Enter your daily rate");
+            int noOfDays = readInt("Enter the number of days");
             writeFee(calculateFee(dailyRate, noOfDays));
         }
 
-       
-        private double readDouble(string v)
+        double readDouble(string v)
         {
-            Console.Write(v );
+            Console.WriteLine(v);
             string line = Console.ReadLine();
             return double.Parse(line);
+
         }
-        private int radInt(string v)
+
+        int readInt(string v)
         {
-            Console.Write (v);
+            Console.WriteLine(v);
             string line = Console.ReadLine();
-            return int.Parse(line);
+            return int.Parse(Console.ReadLine());
         }
-        private double calculateFee(double dailyRate, double noOfDays) => dailyRate * noOfDays;
+          double calculateFee(double dailyRate, int noOfDays) => dailyRate * noOfDays;
+       
 
-        private void writeFee(double v)  =>Console.WriteLine($"The cousultant's fee is :{v *1.1}");
-      
-           
-         
+     
 
-
+        void writeFee(double calculateFee) => Console.WriteLine($"The consulten fee is {calculateFee * 1.1}");
+        
     }
 }
+
+ 
